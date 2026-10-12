@@ -172,7 +172,7 @@ td.r,th.r{text-align:right}
       <p class="ctx">Salvata sulla schermata Home, la pagina si apre con un tocco come un'app, già sul suo appartamento. Non si scarica niente dagli store.</p>
       <div class="who-grid">
         <div><b>iPhone (Safari)</b><ol class="steps"><li>tocchi il quadrato con la freccia in su</li><li>"Aggiungi alla schermata Home"</li><li>"Aggiungi"</li></ol></div>
-        <div><b>Android (Chrome)</b><ol class="steps"><li>tocchi i tre puntini in alto</li><li>"Aggiungi a schermata Home"</li><li>"Aggiungi"</li></ol></div>
+        <div><b>Android (Chrome)</b><ol class="steps"><li>tocchi i tre puntini in alto</li><li>"Installa app" (o "Aggiungi a schermata Home")</li><li>"Installa"</li></ol></div>
       </div>
       <button class="btn" id="esci">Esci e cancella il codice da questo telefono</button>
     </section>
@@ -263,5 +263,6 @@ mostra(trova(c0)||DEMO);
 })();
 </script>
 
+<script>if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js').catch(function(){});}</script>
 </body>
 </html>
