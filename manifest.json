@@ -1,6 +1,6 @@
 {
- "name": "I miei consumi - Sicurcalor",
- "short_name": "I miei consumi",
+ "name": "Lettura consumi - Sicurcalor",
+ "short_name": "Lettura consumi",
  "start_url": "./",
  "scope": "./",
  "display": "standalone",
